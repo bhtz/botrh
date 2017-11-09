@@ -18,7 +18,7 @@ class MiaBot {
                     if (identity.id === message.address.bot.id) {
                         bot.send(new builder.Message()
                             .address(message.address)
-                            .text("Bonjour je suis BOT Interface Manger ! \n\n Posez moi vos questions, je me ferai une joie de vous répondre !"));
+                            .text("Bonjour je suis BOT Interface Manager ! \n\n Posez moi vos questions, je me ferai une joie de vous répondre !"));
                     }
                 });
             }
