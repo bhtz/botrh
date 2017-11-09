@@ -1,0 +1,6 @@
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
+
+var Server = require('../app/server');
+
+let server = new Server();
+server.boot();
